@@ -60,7 +60,7 @@ If the huponexit shell option has been set with shopt, bash sends a SIGHUP to al
 
 If bash is waiting for a command to complete and receives a signal for which a trap has been set, the trap will not be executed until the command completes. When bash is waiting for an asynchronous command via the wait builtin, the reception of a signal for which a trap has been set will cause the wait builtin to return immediately with an exit status greater than 128, immediately after which the trap is executed.
 .SH AUTHOR
-Koskei Ian, Sixolase Klaas.
+Koskei Ian, Sixolise Klaas.
 .SH DISCLAIMER
 .PP
 This document is part of the Simple Shell Holberton project.
